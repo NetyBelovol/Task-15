@@ -1,0 +1,13 @@
+
+.container {
+    width: 500px;
+    height: 300px;
+}
+
+input:invalid + small + small {
+    display: none;
+}
+
+input:valid + small {
+    display: none;
+}
